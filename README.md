@@ -7,6 +7,7 @@
 
   **A pixel-perfect, modern, fully responsive YouTube Front-End UI clone crafted strictly with pure HTML5 & CSS3.**
 
+  [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=netlify)](https://zippy-daifuku-e896fa.netlify.app/)
   [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
   [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
   [![No JS](https://img.shields.io/badge/JavaScript-0%25-yellow?style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -17,9 +18,10 @@
 
   <a href="#-overview"><b>Overview</b></a> •
   <a href="#-key-features"><b>Key Features</b></a> •
-  <a href="#-tech-stack--css-highlights"><b>CSS Highlights</b></a> •
+  <a href="#-css-highlights--techniques"><b>CSS Highlights</b></a> •
   <a href="#-folder-structure"><b>Folder Structure</b></a> •
-  <a href="#-getting-started"><b>Getting Started</b></a>
+  <a href="#-getting-started"><b>Getting Started</b></a> •
+  <a href="#-live-preview"><b>Live Preview</b></a>
 
   <br />
   <br />
@@ -37,6 +39,8 @@ Welcome to the **YouTube Web UI Clone** repository! This project is a pixel-perf
 
 No JavaScript frameworks, layout libraries (such as Bootstrap or Tailwind), or preprocessors were used. It demonstrates clean DOM structuring, complex CSS Grid & Flexbox alignment, CSS custom properties (variables), media queries, and smooth micro-interactions.
 
+🚀 **[View Live Demo](https://zippy-daifuku-e896fa.netlify.app/)**
+
 ---
 
 ## ✨ Key Features
@@ -44,11 +48,11 @@ No JavaScript frameworks, layout libraries (such as Bootstrap or Tailwind), or p
 | Section | Feature & Functionality Description |
 | :--- | :--- |
 | **🔍 Top Header Bar** | YouTube logo, responsive centered search input with search & mic icons, right action buttons, and profile avatar. |
-| **📁 Navigation Sidebar** | Left navigation bar with Home, Shorts, Subscriptions, Library, and History tabs with hover active states. |
+| **📁 Navigation Sidebar** | Left navigation bar with Home, Explore, Subscriptions, Originals, YouTube Music, and Library tabs with hover states. |
 | **🏷️ Category Filter Bar** | Horizontal scrolling pill navigation (`All`, `Gaming`, `Coding`, `Music`, `Live`, `Tech`, etc.). |
 | **🎬 Video Grid Layout** | Multi-column responsive video layout using CSS Grid (`repeat(auto-fit, minmax(...))`). |
-| **👤 Channel & Meta Info** | Displays thumbnail image, video title, channel badge, views count, and upload timestamp. |
-| **🌙 YouTube Dark Theme** | Official `#0f0f0f` pitch-dark background styling with custom dark scrollbars. |
+| **👤 Channel & Meta Info** | Displays video thumbnails, duration overlays, channel avatar, title, channel name, views count, and upload timestamp. |
+| **🌙 YouTube Dark Theme** | Official pitch-dark background styling with custom dark scrollbars. |
 | **📱 Full Responsiveness** | Custom `@media` query breakpoints adapting smooth UI transitions from Desktop to Mobile screens. |
 
 ---
@@ -59,7 +63,7 @@ No JavaScript frameworks, layout libraries (such as Bootstrap or Tailwind), or p
 
 | Desktop View | Mobile Responsive View |
 | :---: | :---: |
-| <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=600&q=80" width="400" alt="Desktop View"/> | <img src="https://images.unsplash.com/photo-1526738549149-8e07eca6c147?auto=format&fit=crop&w=300&q=80" width="200" alt="Mobile View"/> |
+| <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=600&q=80" width="400" alt="Desktop View"/> | <img src="https://images.unsplash.com/photo-1526738549149-8e07eca6c147?auto=format&fit=crop&w=300&q=200" width="200" alt="Mobile View"/> |
 
 </div>
 
